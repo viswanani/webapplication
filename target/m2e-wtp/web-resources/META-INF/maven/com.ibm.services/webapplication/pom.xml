@@ -15,7 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  	<snapshotRepository>
+  		<id>jfrog</id>
+  		<name>webapplication</name>
+  		<url>http://bviswanath:8081/artifactory/webapplication-lr</url>
+  	</snapshotRepository>
+  	<repository>
+  		<id>jfrog</id>
+  		<name>webapplication</name>
+  		<url>http://bviswanath:8081/artifactory/webapplication-lr</url>
+  	</repository>
+  </distributionManagement>
   <build>
+  
     <finalName>webapplication</finalName>
   </build>
 </project>
